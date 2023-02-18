@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Roupa</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+
+    <h2><center>Loja de Roupa</center></h2>
+        <!-- form - para fazer um formulario -->
+        <!-- center - é para centralizar -->
+    <form>
+
+        <h1>Seja Bem vindo</h1>
+        <p>
+            <h2>Login</h2>
+        </p>
+        <p>
+            <label for="l_email">E-mail:</label>
+            <input type="email" nome="email" id="email" size="50" maxlength="100" placeholder="Digite seu e-mail, exemplo:email@provedor.com" required>
+        </p>
+        <p>
+            <label for="l_senha">Senha:</label>
+            <input type="password" name="senha" id="senha" size="50" maxlength="10" minlength="4" placeholder="*********" required>
+            <!-- maxlength="40" - limita maximo de caracter -->
+            <!-- placeholder="Digite" - coloca o texto dentro do campo no fundo  -->
+            <!-- minlength="4" - limita o minimo de caracter -->
+            <!-- placeholder="Digite" - coloca o texto dentro do campo no fundo  -->
+        </p>
+        <p>
+            
+            <button type="button" name="entrar" id="entrar" onclick="alert('Estamos ficando craques no HTML!!!')">Entrar</button>
+            <button type="reset" name="limpar" id="limpar">Limpar Dados</button>
+        </p>
