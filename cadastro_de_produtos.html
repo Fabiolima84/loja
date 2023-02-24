@@ -7,25 +7,33 @@
 <body>
 	<h1>Cadastro de Produtos</h1>
 
-<p>
-	<label for="l_nome">Codigo:</label>
+<div>
+	<div></div><label for="l_nome">Codigo:</label></div>
     <input type="text" name="Codigo" id="Codigo" size="40" maxlength="50" placeholder="Digite o Codigo do produto" required>
-</p>
+</div>
 <p>
-	<label for="l_nome">Nome:</label>
+	<div><label for="l_nome">Nome:</label></div>
     <input type="text" name="Nome" id="Nome" size="40" maxlength="50" placeholder="Digite o Nome do produto" required>
 </p>
 <p>
-	<label for="l_nome">Preço de Venda:</label>
+	<div><label for="l_nome">Preço de Venda:</label></div>
     <input type="text" name="Preço de Venda" id="Preço de Venda" size="40" maxlength="50" placeholder="Digite o Preço de Venda do produto" required>
 </p>
 <p>
 	<label for="l_nome">Categoria:</label>
-    <input type="text" name="Categoria" id="Categoria" size="40" maxlength="50" placeholder="Digite a Categoria do produto" required>
+    <select name="inCategoria" id="inCategoria">
+        <option value=" masculino">Masculino</option>
+
+        <option value=" feminino">Feminino</option>
+    </select>
 </p>
 <p>
 	<label for="l_nome">Ativo:</label>
-    <input type="text" name="Ativo" id="Ativo" size="40" maxlength="50" placeholder="Digite  Ativo do produto" required>
+    <input type="radio" name="ativo"  id="ativo" value="sim">
+    <label for="sim">Sim</label>
+
+    <input type="radio" name="ativo" id="ativo" value="nao">
+    <label for="nao">Não</label>
 </p>
             <label for="l_categoria">Tamanho Disponiveis</label>
 

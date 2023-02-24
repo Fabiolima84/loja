@@ -7,29 +7,32 @@
 </head>
 <body>
 
-    <h2><center>Loja de Roupa</center></h2>
+    <h1><center>Loja de Roupa</center></h1>
         <!-- form - para fazer um formulario -->
         <!-- center - é para centralizar -->
     <form>
-
+       
         <h1>Seja Bem vindo</h1>
-        <p>
+        <div>
             <h2>Login</h2>
-        </p>
-        <p>
-            <label for="l_email">E-mail:</label>
+    </div>
+    <div>
+        <div> <label for="l_email">E-mail:</label></div>
             <input type="email" nome="email" id="email" size="50" maxlength="100" placeholder="Digite seu e-mail, exemplo:email@provedor.com" required>
-        </p>
-        <p>
-            <label for="l_senha">Senha:</label>
+        </div>
+
+        <div>
+            <div> <label for="l_senha">Senha:</label></div>
             <input type="password" name="senha" id="senha" size="50" maxlength="10" minlength="4" placeholder="*********" required>
           
-        </p>
-        <p>
+        </div>
+
+        <div>
             
             <button type="button" name="entrar" id="entrar">Entrar</button>
             <button type="reset" name="limpar" id="limpar">Limpar Dados</button>
-        </p>
+        </div>
+
         </form>
        <script src="script/loja.js"></script>
 </body>
