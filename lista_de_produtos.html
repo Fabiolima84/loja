@@ -17,70 +17,29 @@
     		<th >Tamanho Disponivel</th>
     		<th >Ativo</th>
     	</tr>
-    	<tr>
-    		<td>0001</td>
-    		<td>Calça Jeans</td>
-    		<td>Masculina</td>
-    		<td>120.00</td>
-    		<td>P.M.G</td>
-    		<td>Sim</td>
-    	</tr>
-    	<tr>
-    		<td>0002</td>
-    		<td>Camisa</td>
-    		<td>Masculina</td>
-    		<td>80.00</td>
-    		<td>P.M.G</td>
-    		<td>Sim</td>
-    	</tr>
-    	<tr>
-    		<td>0003</td>
-    		<td>Jaqueta</td>
-    		<td>Masculina</td>
-    		<td>159.00</td>
-    		<td>P.M.G</td>
-    		<td>Sim</td>
-    	</tr>
+    	
+    	
     </table>
     	<br>
     	<h1>Lista de Produtos Feminino</h1>
 	
     <table border="2" width="100%"> 
     	<tr>                       <!--usado para primeira coluna ou primeira linha!-->
-    		<th >Codigo</th>
     		<th >Nome</th>
-    		<th >Categoria</th>
+    		<th >Codigo</th>    		
     		<th >Preço de Venda</th>
-    		<th >Tamanho Disponivel</th>
-    		<th >Ativo</th>
+    		
     	</tr>
-    	<tr>
-    		<td>0004</td>
-    		<td>Calça Jeans</td>
-    		<td>Feminina</td>
-    		<td>129.00</td>
-    		<td>P.M.G</td>
-    		<td>Sim</td>
-    	</tr>
-    	<tr>
-    		<td>0005</td>
-    		<td>Blusa</td>
-    		<td>Feminina</td>
-    		<td>99.00</td>
-    		<td>M.G</td>
-    		<td>Sim</td>
-    	</tr>
-    	<tr>
-    		<td>0006</td>
-    		<td>Bolsa</td>
-    		<td>Feminina</td>
-    		<td>139.00</td>
-    		<td>P.M.G</td>
-    		<td>Sim</td>
-    	</tr>
+    	
     </table>
         <br><br>
             <button type="button" name="cadastro" id="cadastro" onclick="window.location= 'cadastro_de_produtos.html'">Cadastrar Produto</button>
             <button type="reset" name="login" id="login" onclick="window.location='login_da_loja.html'">Logoff</button>
+
+			<script id="colunas" type="text/x-jsrender">
+				<td data-column= "Nome"></td>
+				<td data-column= "Codigo"></td>
+				<td data-column= "Preco_de_Venda"></td>
+			</script>
         
 </body>
